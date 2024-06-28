@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <title>JomCuti!!</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/index.css">
+   <link rel="stylesheet" href="css/booking.css">
+   <link rel="stylesheet" href="css/explore.css">
+   
+   <!-- Google Icons -->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!-- font awesome link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   <!--=============== REMIXICONS ===============-->
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+<body>
+   
+   <!-- As a heading -->
+   <nav class="navbar fixed-top navbar-light bg-light">
+      <h2 class="navbar-brand mb-0">JomCuti!!</h2>
+   </nav>
+   <!-- Begin page content -->
+   <div class="container-fluid">
+
+      <!-- Home page -->
+      <div id="page-home" class="active">
+         <div class="block">
+            
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <h3 class="home__subtitle">
+                     Welcome
+                  </h3>
+   
+                  <h1 class="home__title">
+                     To <br>
+                     JomCuti!!
+                  </h1>
+   
+                  <p class="home__description">
+                     Travel App
+                  </p>
+   
+                  <a href="#page-create" class="button">
+                     Booking Now !! <i class="ri-arrow-right-line"></i>
+                  </a>
+               </div>
+   
+               <div class="home__cards grid">
+                  <article class="home__card">
+                     <img src="img/explore-kuala-lumpur.jpg" alt="home image" class="home__card-img">
+                     <h3 class="home__card-title">Kuala Lumpur</h3>
+                     <div class="home__card-shadow"></div>
+                  </article>
+   
+                  <article class="home__card">
+                     <img src="img/explore-pulaupinang.jpg" alt="home image" class="home__card-img">
+                     <h3 class="home__card-title">Pulau Pinang</h3>
+                     <div class="home__card-shadow"></div>
+                  </article>
+   
+                  <article class="home__card">
+                     <img src="img/explore-terengganu.jpg" alt="home image" class="home__card-img">
+                     <h3 class="home__card-title">Terengganu</h3>
+                     <div class="home__card-shadow"></div>
+                  </article>
+   
+                  <article class="home__card">
+                     <img src="img/explore-melaka.jpg" alt="home image" class="home__card-img">
+                     <h3 class="home__card-title">Melaka</h3>
+                     <div class="home__card-shadow"></div>
+                  </article>
+               </div>
+            </div>
+            
+         </div>
+      </div>
+
+      <!-- Explore page -->
+      <div id="page-feed" class="inactive">
+        <div class="block">
+
+         <div class="content">
+            <br>
+            <div id="choose-package-message" class="choose-package">
+               <p>Please choose a package to see the details.</p>
+           </div>
+            <select id="package-selector">
+                <option value="default">Choose a Package</option>
+                <option value="solo">Solo Package</option>
+                <option value="couple">Couple Package</option>
+                <option value="family">Family Package</option>
+            </select>
+            
+            
+
+        
+         </div>
+    
+         <div id="explore-section" class="inactive">
+
+            <div id="solo-package" class="package-details inactive">              
+            <!--==================== SOLO PACKAGE ====================-->
+            <section class="explore section" id="explore">
+                <h2 class="section__title">Solo Package</h2>
+                <div class="explore__container container grid">
+                    <article class="explore__card">
+                        <img src="img/explore-kuala-lumpur.jpg" alt="Kuala Lumpur" class="explore__img">
+                        <div class="explore__data">
+                            <h3 class="explore__title">Kuala Lumpur</h3>
+                            <div class="explore__description">
+                                <br>
+                                <p>Number of People : 1 Person</p>
+                                <p>Number of Bed : 1 Single Bed</p>
+                                <p>Food : Include Breakfast</p>
+                                <p>Room : Non Smoking</p>
+                                <p>Day : 3 Days 2 Night</p>
+                                <p>Place : National Museum, KLCC, KL Tower, Saloma Bridge, Bukit Bintang</p>
+                            </div>
+                            <span class="explore__price">RM500</span>
+                            <span class="explore__discount">RM800</span>
+                            <div class="explore__reviews">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <span>(5.0)</span>
+                            </div>
+                        </div>
+                    </article>
+        
+                    <article class="explore__card">
+                        <img src="img/explore-pulaupinang.jpg" alt="Pulau Pinang" class="explore__img">
+                        <div class="explore__data">
+                            <h3 class="explore__title">Pulau Pinang</h3>
+                            <div class="explore__description">
+                                <br>
+                                <p>Number of People : 1 Person</p>
+                                <p>Number of Bed : 1 Single Bed</p>
+                                <p>Food : Include Breakfast</p>
+                                <p>Room : Non Smoking</p>
+                                <p>Day : 3 Days 2 Night</p>
+                                <p>Place : Bukit Bendera, The TOP Komtar, Pulau Jerejak, WonderFood Museum, Batu Ferringhi, Georgetown</p>
+                            </div>
+                            <span class="explore__price">RM200</span>
+                            <span class="explore__discount">RM400</span>
+                            <div class="explore__reviews">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-line"></i>
+                                <span>(4.5)</span>
+                            </div>
+                        </div>
+                    </article>
+        
+                    <article class="explore__card">
+                        <img src="img/explore-terengganu.jpg" alt="Terengganu" class="explore__img">
+                        <div class="explore__data">
+                            <h3 class="explore__title">Terengganu</h3>
+                            <div class="explore__description">
+                                <br>
+                                <p>Number of People : 1 Person</p>
+                                <p>Number of Bed : 1 Single Bed</p>
+                                <p>Food : Include Breakfast</p>
+                                <p>Room : Non Smoking</p>
+                                <p>Day : 5 Days 4 Night</p>
+                                <p>Place : Pasar Payang, Masjid Terapung, Masjid Kristal, Drawbridge, Pulau Redang</p>
+                            </div>
+                            <span class="explore__price">RM300</span>
+                            <span class="explore__discount">RM600</span>
+                            <div class="explore__reviews">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-line"></i>
+                                <span>(4.5)</span>
+                            </div>
+                        </div>
+                    </article>
+        
+                    <article class="explore__card">
+                        <img src="img/explore-melaka.jpg" alt="Melaka" class="explore__img">
+                        <div class="explore__data">
+                            <h3 class="explore__title">Melaka</h3>
+                            <div class="explore__description">
+                                <br>
+                                <p>Number of People : 1 Person</p>
+                                <p>Number of Bed : 1 Single Bed</p>
+                                <p>Food : Include Breakfast</p>
+                                <p>Room : Non Smoking</p>
+                                <p>Day : 3 Days 2 Night</p>
+                                <p>Place : Melaka River Cruise, Kota A Famosa, Menara Taming Sari, Jonker Walk, The Stadthuys</p>
+                            </div>
+                            <span class="explore__price">RM250</span>
+                            <span class="explore__discount">RM400</span>
+                            <div class="explore__reviews">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-line"></i>
+                                <span>(4.5)</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+         </div>
+        
+            <div id="couple-package" class="package-details inactive">              
+            <!--==================== COUPLE PACKAGE ====================-->
+            <section class="explore section" id="explore-couple">
+                <h2 class="section__title">Couple Package</h2>
+                <div class="explore__container container grid">
+                    <article class="explore__card">
+                        <img src="img/explore-kuala-lumpur.jpg" alt="Kuala Lumpur" class="explore__img">
+                        <div class="explore__data">
+                            <h3 class="explore__title">Kuala Lumpur</h3>
+                            <div class="explore__description">
+                                <br>
+                                <p>Number of People : 2 People</p>
+                                <p>Number of Bed : 1 Queen Bed</p>
+                                <p>Food : Include Breakfast & Dinner</p>
+                                <p>Room : Non Smoking</p>
+                                <p>Day : 3 Days 2 Night</p>
+                                <p>Place : National Museum, KLCC, KL Tower, Saloma Bridge, Bukit Bintang</p>
+                            </div>
+                            <span class="explore__price">RM900</span>
+                            <span class="explore__discount">RM1200</span>
+                            <div class="explore__reviews">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <span>(5.0)</span>
+                            </div>
+                        </div>
+                    </article>
+        
+                    <article class="explore__card">
+                        <img src="img/explore-pulaupinang.jpg" alt="Pulau Pinang" class="explore__img">
+                        <div class="explore__data">
+                            <h3 class="explore__title">Pulau Pinang</h3>
+                            <div class="explore__description">
+                                <br>
+                                <p>Number of People : 2 People</p>
+                                <p>Number of Bed : 1 Queen Bed</p>
+                                <p>Food : Include Breakfast & Dinner</p>
+                                <p>Room : Non Smoking</p>
+                                <p>Day : 3 Days 2 Night</p>
+                                <p>Place : Bukit Bendera, The TOP Komtar, Pulau Jerejak, WonderFood Museum, Batu Ferringhi, Georgetown</p>
+                            </div>
+                            <span class="explore__price">RM700</span>
+                            <span class="explore__discount">RM1000</span>
+                            <div class="explore__reviews">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-line"></i>
+                                <span>(4.5)</span>
+                            </div>
+                        </div>
+                    </article>
+        
+                    <article class="explore__card">
+                        <img src="img/explore-terengganu.jpg" alt="Terengganu" class="explore__img">
+                        <div class="explore__data">
+                            <h3 class="explore__title">Terengganu</h3>
+                            <div class="explore__description">
+                                <br>
+                                <p>Number of People : 2 People</p>
+                                <p>Number of Bed : 1 Queen Bed</p>
+                                <p>Food : Include Breakfast & Dinner</p>
+                                <p>Room : Non Smoking</p>
+                                <p>Day : 5 Days 4 Night</p>
+                                <p>Place : Pasar Payang, Masjid Terapung, Masjid Kristal, Drawbridge, Pulau Redang</p>
+                            </div>
+                            <span class="explore__price">RM1100</span>
+                            <span class="explore__discount">RM1500</span>
+                            <div class="explore__reviews">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-line"></i>
+                                <span>(4.5)</span>
+                            </div>
+                        </div>
+                    </article>
+        
+                    <article class="explore__card">
+                        <img src="img/explore-melaka.jpg" alt="Melaka" class="explore__img">
+                        <div class="explore__data">
+                            <h3 class="explore__title">Melaka</h3>
+                            <div class="explore__description">
+                                <br>
+                                <p>Number of People : 2 People</p>
+                                <p>Number of Bed : 1 Queen Bed</p>
+                                <p>Food : Include Breakfast & Dinner</p>
+                                <p>Room : Non Smoking</p>
+                                <p>Day : 3 Days 2 Night</p>
+                                <p>Place : Melaka River Cruise, Kota A Famosa, Menara Taming Sari, Jonker Walk, The Stadthuys</p>
+                            </div>
+                            <span class="explore__price">RM800</span>
+                            <span class="explore__discount">RM1100</span>
+                            <div class="explore__reviews">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-line"></i>
+                                <span>(4.5)</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+         </div>
+        
+                           
+         
+            <div id="family-package" class="package-details inactive">          
+            <!--==================== FAMILY PACKAGE ====================-->
+            <section class="explore section" id="explore-family">
+                <h2 class="section__title">Family Package</h2>
+                <div class="explore__container container grid">
+                    <article class="explore__card">
+                        <img src="img/explore-kuala-lumpur.jpg" alt="Kuala Lumpur" class="explore__img">
+                        <div class="explore__data">
+                            <h3 class="explore__title">Kuala Lumpur</h3>
+                            <div class="explore__description">
+                                <br>
+                                <p>Number of People : 4 People</p>
+                                <p>Number of Bed : 2 Queen Beds</p>
+                                <p>Food : Include Breakfast & Dinner</p>
+                                <p>Room : Non Smoking</p>
+                                <p>Day : 4 Days 3 Night</p>
+                                <p>Place : National Museum, KLCC, KL Tower, Saloma Bridge, Bukit Bintang</p>
+                            </div>
+                            <span class="explore__price">RM1500</span>
+                            <span class="explore__discount">RM2000</span>
+                            <div class="explore__reviews">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <span>(5.0)</span>
+                            </div>
+                        </div>
+                    </article>
+        
+                    <article class="explore__card">
+                        <img src="img/explore-pulaupinang.jpg" alt="Pulau Pinang" class="explore__img">
+                        <div class="explore__data">
+                            <h3 class="explore__title">Pulau Pinang</h3>
+                            <div class="explore__description">
+                                <br>
+                                <p>Number of People : 4 People</p>
+                                <p>Number of Bed : 2 Queen Beds</p>
+                                <p>Food : Include Breakfast & Dinner</p>
+                                <p>Room : Non Smoking</p>
+                                <p>Day : 4 Days 3 Night</p>
+                                <p>Place : Bukit Bendera, The TOP Komtar, Pulau Jerejak, WonderFood Museum, Batu Ferringhi, Georgetown</p>
+                            </div>
+                            <span class="explore__price">RM1300</span>
+                            <span class="explore__discount">RM1700</span>
+                            <div class="explore__reviews">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-line"></i>
+                                <span>(4.5)</span>
+                            </div>
+                        </div>
+                    </article>
+        
+                    <article class="explore__card">
+                        <img src="img/explore-terengganu.jpg" alt="Terengganu" class="explore__img">
+                        <div class="explore__data">
+                            <h3 class="explore__title">Terengganu</h3>
+                            <div class="explore__description">
+                                <br>
+                                <p>Number of People : 4 People</p>
+                                <p>Number of Bed : 2 Queen Beds</p>
+                                <p>Food : Include Breakfast & Dinner</p>
+                                <p>Room : Non Smoking</p>
+                                <p>Day : 5 Days 4 Night</p>
+                                <p>Place : Pasar Payang, Masjid Terapung, Masjid Kristal, Drawbridge, Pulau Redang</p>
+                            </div>
+                            <span class="explore__price">RM1600</span>
+                            <span class="explore__discount">RM2100</span>
+                            <div class="explore__reviews">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-line"></i>
+                                <span>(4.5)</span>
+                            </div>
+                        </div>
+                    </article>
+        
+                    <article class="explore__card">
+                        <img src="img/explore-melaka.jpg" alt="Melaka" class="explore__img">
+                        <div class="explore__data">
+                            <h3 class="explore__title">Melaka</h3>
+                            <div class="explore__description">
+                                <br>
+                                <p>Number of People : 4 People</p>
+                                <p>Number of Bed : 2 Queen Beds</p>
+                                <p>Food : Include Breakfast & Dinner</p>
+                                <p>Room : Non Smoking</p>
+                                <p>Day : 4 Days 3 Night</p>
+                                <p>Place : Melaka River Cruise, Kota A Famosa, Menara Taming Sari, Jonker Walk, The Stadthuys</p>
+                            </div>
+                            <span class="explore__price">RM1400</span>
+                            <span class="explore__discount">RM1800</span>
+                            <div class="explore__reviews">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-line"></i>
+                                <span>(4.5)</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+      </div>
+         
+
+       </div>
+      </div>
+
+      <!-- Booking page -->
+      <div id="page-create" class="inactive">
+         <!--==================== BOOKING FORM ====================-->
+         <section class="booking-section">
+            <div class="container">
+               <h2>Book Your Trip</h2>
+               <form id="booking-form">
+                     <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                     </div>
+                     <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                     </div>
+                     <div class="form-group">
+                        <label for="destination">Destination:</label>
+                        <select id="destination" name="destination" required>
+                           <option value="" disabled selected>Select your destination</option>
+                              <option value="kuala lumpur">Kuala Lumpur</option>
+                              <option value="pulau pinang">Pulau Pinang</option>
+                              <option value="terengganu">Terengganu</option>
+                              <option value="melaka">Melaka</option>
+                        </select>
+                     </div>
+                     <div class="form-group">
+                        <label for="trip-type">Trip Type:</label>
+                        <select id="trip-type" name="trip-type" required>
+                           <option value="" disabled selected>Select your trip type</option>
+                           <option value="single">Single</option>
+                           <option value="couple">Couple</option>
+                           <option value="family">Family</option>
+                        </select>
+                     </div>
+                     <div class="form-group">
+                        <label for="guests">Number of Guests:</label>
+                        <input type="number" id="guests" name="guests" min="1" max="10" required>
+                     </div>
+                     <div class="form-group">
+                        <label for="arrival-date">Arrival:</label>
+                        <input type="date" id="arrival-date" name="arrival-date" required>
+                     </div>
+                     <div class="form-group">
+                        <label for="leaving-date">Leaving:</label>
+                        <input type="date" id="leaving-date" name="leaving-date" required>
+                     </div>
+                     <button type="submit" class="button">Book Now !! <i class="ri-arrow-right-line"></i></button>
+               </form>
+            </div>
+         </section>
+      </div>
+
+      <!-- Booking list page -->
+      <div id="page-account" class="inactive">
+         <div class="block">
+            <!--==================== BOOKING LIST ====================-->
+            <section class="booking section" id="booking">
+               <div class="booking__container container grid">
+                  <div class="booking__data">
+                     <h2 class="section__title">
+                        Check Your <br>
+                        Booking List!!
+                     </h2>
+                     <p class="booking__description">
+                        Review all your planned trips around the world. Ensure you have
+                        everything prepared for a safe and worry-free travel experience.
+                        Get ready to explore the paradises of the world.
+                     </p>
+               </div>
+               <!-- Booking list container -->
+               <div id="booking-list" style="margin-top: 20px;">
+                  <h3>Your Bookings</h3>
+                  <br><br>
+                  <table class="table table-striped">
+                     <thead>
+                        <tr>
+                           <th>Name</th>
+                           <th>Email</th>
+                           <th>Destination</th>
+                           <th>Trip Type</th>
+                           <th>Number of Guests</th>
+                           <th>Arrival Date</th>
+                           <th>Leaving Date</th>
+                           <th>Price</th>
+                        </tr>
+                     </thead>
+                     <tbody id="booking-list-items">
+                        <!-- Bookings will be appended here -->
+                     </tbody>
+                  </table>
+               </div>
+            </section>
+         </div>
+      </div>
+   </div>
+
+   <!-- Bottom Nav Bar -->
+   <footer class="footer">
+      <div id="buttonGroup" class="btn-group selectors" role="group" aria-label="Basic example">
+         <button id="home" type="button" class="btn btn-secondary button-active">
+            <div class="selector-holder">
+               <i class="material-icons">home</i>
+               <span>Home</span>
+            </div>
+         </button>
+         <button id="feed" type="button" class="btn btn-secondary button-inactive">
+            <div class="selector-holder">
+               <i class="material-icons">view_list</i>
+               <span>Explore</span>
+            </div>
+         </button>
+         <button id="create" type="button" class="btn btn-secondary button-inactive">
+            <div class="selector-holder">
+               <i class="material-icons">create</i>
+               <span>Booking</span>
+            </div>
+         </button>
+         <button id="account" type="button" class="btn btn-secondary button-inactive">
+            <div class="selector-holder">
+               <i class="material-icons">account_circle</i>
+               <span>List</span>
+            </div>
+         </button>
+      </div>
+   </footer>
+
+   <!-- Bootstrap core JavaScript -->
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+   <!-- JS needed for this page -->
+   <script src="js/main.js"></script>
+
+   <!--========== SCROLL UP ==========-->
+ <a href="#" class="scrollup" id="scroll-up">
+   <i class="ri-arrow-up-line"></i>
+</a>
+
+<!--=============== SCROLLREVEAL ===============-->
+<script src="js/scrollreveal.min.js"></script>
+
+<!--=============== Js ===============-->
+<script src=""></script>
+<script src="js/choosePackage.js"></script>
+
+
+   <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+   
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+      apiKey: "AIzaSyDtSFyyXlmIOpn5RSYzm2uxF58yxp1Ahc4",
+      authDomain: "jomcuti-cc84f.firebaseapp.com",
+      databaseURL: "https://jomcuti-cc84f-default-rtdb.asia-southeast1.firebasedatabase.app",
+      projectId: "jomcuti-cc84f",
+      storageBucket: "jomcuti-cc84f.appspot.com",
+      messagingSenderId: "759736000144",
+      appId: "1:759736000144:web:ffb72c4688530f54064215",
+      measurementId: "G-28CXBEJJDQ"
+      };
+   
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+
+      document.getElementById('booking-form').addEventListener('submit', async function(event) {
+        event.preventDefault();
+     
+        // Get form values
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const destination = document.getElementById('destination').value;
+        const tripType = document.getElementById('trip-type').value;
+        const guests = document.getElementById('guests').value;
+        const arrivalDate = document.getElementById('arrival-date').value;
+        const leavingDate = document.getElementById('leaving-date').value;
+     
+        // Determine the price based on destination and trip type
+        let price;
+        switch(destination.toLowerCase()) {
+           case 'kuala lumpur':
+              switch(tripType.toLowerCase()) {
+                 case 'single':
+                    price = 'RM500';
+                    break;
+                 case 'couple':
+                    price = 'RM900';
+                    break;
+                 case 'family':
+                    price = 'RM1500';
+                    break;
+                 default:
+                    price = 'N/A';
+              }
+              break;
+           case 'pulau pinang':
+              switch(tripType.toLowerCase()) {
+                 case 'single':
+                    price = 'RM200';
+                    break;
+                 case 'couple':
+                    price = 'RM700';
+                    break;
+                 case 'family':
+                    price = 'RM1300';
+                    break;
+                 default:
+                    price = 'N/A';
+              }
+              break;
+           case 'terengganu':
+              switch(tripType.toLowerCase()) {
+                 case 'single':
+                    price = 'RM300';
+                    break;
+                 case 'couple':
+                    price = 'RM1100';
+                    break;
+                 case 'family':
+                    price = 'RM1600';
+                    break;
+                 default:
+                    price = 'N/A';
+              }
+              break;
+           case 'melaka':
+              switch(tripType.toLowerCase()) {
+                 case 'single':
+                    price = 'RM250';
+                    break;
+                 case 'couple':
+                    price = 'RM800';
+                    break;
+                 case 'family':
+                    price = 'RM1400';
+                    break;
+                 default:
+                    price = 'N/A';
+              }
+              break;
+           default:
+              price = 'N/A'; // default case if destination does not match any
+        }
+     
+        // Add booking to the booking list
+        const bookingList = document.getElementById('booking-list-items');
+        const bookingRow = document.createElement('tr');
+        bookingRow.innerHTML = `
+           <td>${name}</td>
+           <td>${email}</td>
+           <td>${destination.charAt(0).toUpperCase() + destination.slice(1)}</td>
+           <td>${tripType.charAt(0).toUpperCase() + tripType.slice(1)}</td>
+           <td>${guests}</td>
+           <td>${arrivalDate}</td>
+           <td>${leavingDate}</td>
+           <td>${price}</td>
+        `;
+        bookingList.appendChild(bookingRow);
+     
+        // Store booking in Firestore
+        try {
+          const docRef = await addDoc(collection(db, "bookings"), {
+            name: name,
+            email: email,
+            destination: destination,
+            tripType: tripType,
+            guests: guests,
+            arrivalDate: arrivalDate,
+            leavingDate: leavingDate,
+            price: price
+          });
+          console.log("Document written with ID: ", docRef.id);
+        } catch (e) {
+          console.error("Error adding document: ", e);
+        }
+     
+        // Show booking list and hide booking form
+        document.getElementById('page-create').classList.add('inactive');
+        document.getElementById('page-account').classList.remove('inactive');
+     });
+     
+     // Event listeners for navigation buttons
+     document.getElementById('home').addEventListener('click', function() {
+        setActivePage('page-home');
+     });
+     
+     document.getElementById('feed').addEventListener('click', function() {
+        setActivePage('page-feed');
+     });
+     
+     document.getElementById('create').addEventListener('click', function() {
+        setActivePage('page-create');
+     });
+     
+     document.getElementById('account').addEventListener('click', function() {
+        setActivePage('page-account');
+     });
+     
+     function setActivePage(activePageId) {
+        const pages = ['page-home', 'page-feed', 'page-create', 'page-account'];
+        pages.forEach(pageId => {
+           if (pageId === activePageId) {
+              document.getElementById(pageId).classList.remove('inactive');
+              document.getElementById(pageId).classList.add('active');
+           } else {
+              document.getElementById(pageId).classList.remove('active');
+              document.getElementById(pageId).classList.add('inactive');
+           }
+        });
+     }
+
+   </script>
+
+</body>
+</html>
